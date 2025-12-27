@@ -92,3 +92,18 @@ body {
 .card.special .card__text {
   color: #bdc3c7;
 }
+.card.special .btn.primary {
+  background-color: #e74c3c;
+}
+.card.special .btn.primary:hover {
+  background-color: #c0392b;
+}
+.card.special .btn.secondary {
+  background-color: #34495e;
+  color: white;
+}
+.card.special .btn.secondary:hover {
+  background-color: #2c3e50;
+}
+
+
