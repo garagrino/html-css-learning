@@ -1,0 +1,94 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/* Card Component */
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 320px;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card__title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.card__text {
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* Button Layout */
+.card__actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #0056b3;
+}
+
+.btn.secondary {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background-color: #dbe2e8;
+}
+
+/* Special Variant */
+.card.special {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.card.special .card__title {
+  color: white;
+}
+
+.card.special .card__text {
+  color: #bdc3c7;
+}
