@@ -14,5 +14,16 @@ margin-top: 10px;
 border-radius: 5px;
 width:  130px;
 margin-top: 10px;
-margin-bottom: 10px;
-margin-left: 180px;}
+margin-left: 250px;
+height: 25px;
+}
+.views, .author
+{
+color: gray;  
+font-size: 14px;
+display: inline-block;
+}
+.videotitle
+{
+width: 300px;
+}
