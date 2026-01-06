@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .Master {
+      display: grid;
+      grid-template-columns: 200px 00px;
+      margin-top: 30px;
+    }
+    .Box-1 {
+      background-color: lightblue;
+    }
+    .Box-2 {
+      background-color: lightgreen;
+    
+    }
+    .Master2 {
+      display: grid;
+      grid-template-columns: 200px 200px 100px;
+      margin-top: 30px;}
+  </style>
+</head>
+<body>
+  <div class="Master">
+    <div class="Box-1">
+      Box 1
+    </div>
+    <div class="Box-2">
+      Box 2 
+      <p>Text</p>
+    </div>
+  </div>
+    <div class="Master2">
+    <div class="Box-1">
+      200px
+    </div>
+    <div class="Box-2">
+      200px
+      <p>Text</p>
+    </div>
+    <div style="background-color: blanchedalmond;">100px</div>
+    <div style="background-color: rgb(202, 202, 49);">100px</div>
+  </div>
+
+    <div class="Master3" style="display: grid; grid-template-columns: 100px 1fr; margin-top: 30px;"> 
+      <div style="background-color: aquamarine;">100px</div> 
+      <div style="color: lightyellow; background-color: rgb(51, 70, 157);">1fr</div>
+    </div>
+
+
+    <div class="Master3" style="display: grid; grid-template-columns: 100px 1fr 1fr; margin-top: 30px;"> 
+      <div style="background-color: aquamarine;">100px</div> 
+      <div style="color: lightyellow; background-color: rgb(51, 70, 157);">1fr</div>
+      <div style="color: lightyellow; background-color: rgb(157, 51, 70);">1fr</div>
+    </div>
+
+
+    <div class="Master3" style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 30px;"> 
+      <div style="background-color: aquamarine;">100px</div> 
+      <div style="color: lightyellow; background-color: rgb(51, 70, 157);">1fr</div>
+      <div style="color: lightyellow; background-color: rgb(157, 51, 70);">2fr</div>
+    </div>
+
+  </body>
+</html>
