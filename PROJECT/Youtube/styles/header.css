@@ -1,0 +1,10 @@
+p {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+.header {
+height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Pushes left and right sections to the edges */
+  align-items: center; /* Vertically centers everything */ }
